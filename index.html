@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  </head>
+  <body>
+    <main>
+      <label class="moon-box">
+        <input type="checkbox" />
+        <ion-icon name="moon" class="moon"></ion-icon>
+        <span class="toggle"></span>
+      </label>
+      <section class="section weather-search--0">
+        <div class="box" id="box--id">
+          <div class="weather-box" id="weather-box--0">
+            <input
+              type="text"
+              placeholder="Name of the City"
+              spellcheck="false"
+            />
+            <button class="btn-search" id="btn-search-0">
+              <img src="icons/search-button.svg" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section result-box weather-result" id="weather-result-0">
+        <div class="weather-icon" id="weather-icon-0">
+          <img src="icons/cloudy-in-day.svg" />
+          <h2 class="temp">20°C</h2>
+          <h2 class="city-temp">New York</h2>
+
+          <p class="Humidity" id="Humidityid">
+            <img id="imageid" src="icons/temp.svg" /> Humidity: 77%
+          </p>
+
+          <p class="wind" id="Humidityid">
+            <img id="imageid" src="icons/icon-wind.svg" /> Wind: 11 km/h
+          </p>
+
+          <!-- <div class="weather-preciption" id="Precipitation-id">
+             </div> -->
+        </div>
+      </section>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
